@@ -317,28 +317,9 @@ transform: translate(0,-10px);
 }
 
 
-/* Mona lisa loader */
+/*------- loader --------- */
 
-@keyframes blinkCursor {
-  50% {
-    border-right-color: transparent;
-  }
-}
 
-@keyframes typeAndDelete {
-  0%,
-  10% {
-    width: 0;
-  }
-  45%,
-  55% {
-    width: 6.2em;
-  } /* adjust width based on content */
-  90%,
-  100% {
-    width: 0;
-  }
-}
 
 .terminal-loader {
   border: 0.1em solid #333;
